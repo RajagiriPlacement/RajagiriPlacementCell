@@ -673,7 +673,7 @@ section {
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
-  background: #fff;
+  background: #c3bfbf;
   padding: 40px 30px;
   width: 100%;
   border: 1px solid #eef0ef;
@@ -684,7 +684,7 @@ section {
   padding: 18px;
   color: #5fcf80;
   margin-bottom: 30px;
-  background: #ecf9f0;
+  background: #b9c2bc;
   border-radius: 50px;
 }
 
@@ -707,20 +707,20 @@ section {
 }
 
 .features .icon-box {
-  display: flex;
-  align-items: center;
+  display: inline; 
+  /* align-items: center; */
   padding: 20px;
   transition: 0.3s;
   border: 1px solid #eef0ef;
 }
 
-.features .icon-box i {
+.features  i {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
 }
 
-.features .icon-box h3 {
+.features  h3 {
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -1405,6 +1405,13 @@ section {
 
 .contact .php-email-form button[type=submit]:hover {
   background: #3ac162;
+}
+
+/* Recruiters Div */
+
+.recruitersImgClass{
+  width: 3.5cm;
+  height: 2.5cm;
 }
 
 @-webkit-keyframes animate-loading {
