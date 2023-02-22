@@ -164,10 +164,12 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
-              <h3>Why Choose Mentor?</h3>
+              <h3>Rajagiri Placement Cell</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                The Rajagiri is committed to providing students with the best possible career guidance and support.
+                 The team consists of experienced professionals who work closely with students to identify their strengths, interests,
+                  and career goals. They offer counseling, training, and mentorship programs to help students develop the necessary skills
+                   and confidence to succeed in their chosen fields.
               </p>
               <div class="text-center">
                 <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -178,28 +180,77 @@
             <div class="icon-boxes d-flex flex-column justify-content-center">
               <div class="row">
                 <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <div class="icon-box mt-4 mt-xl-0" style="background-color:  #5fcf80;">
+                    <!-- Salary element -->
+                    <div class="col">
+                      <div class="card info-card revenue-card">
+                        <div class="card-body">
+                          <h5 class="card-title">Highest Offer <span>| This Year</span></h5>
+        
+                          <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                              <i class="bi bi-currency-rupee"></i>
+                            </div>
+                            <div class="ps-3">
+                              <h6 style="font-weight: 900;font-size: xx-large;"><span data-purecounter-start="0" data-purecounter-end="12.8" data-purecounter-duration="3" class="purecounter"></span> Lakhs</h6>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Salary element end -->
                   </div>
                 </div>
+                <!-- Student placed -->
                 <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <div class="icon-box mt-4 mt-xl-0"style="background-color:  #5fcf80;">
+                    <div class="col">
+
+                      <div class="card info-card customers-card">
+        
+                        <div class="card-body">
+                          <h5 class="card-title">Students Placed<span>| This Year</span></h5>
+        
+                          <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                              <i class="bi bi-people"></i>
+                            </div>
+                            <div class="ps-3">
+                              <h6 style="font-weight: 900;font-size: xx-large;"><span data-purecounter-start="0" data-purecounter-end="68" data-purecounter-duration="3" class="purecounter"></span></h6>
+                            </div>
+                          </div>
+        
+                        </div>
+                      </div>
+        
+                    </div>
                   </div>
                 </div>
+                <!-- Student placed  end-->
                 <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <div class="icon-box mt-4 mt-xl-0"style="background-color:  #5fcf80;">
+                    <div class="col">
+
+                      <div class="card info-card customers-card">
+        
+                        <div class="card-body">
+                          <h5 class="card-title">Offers Received<span>| This Year</span></h5>
+        
+                          <div class="d-flex align-items-center">
+                            <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                              <i class="bi bi-file-text"></i>
+                            </div>
+                            <div class="ps-3">
+                              <h6 style="font-weight: 900;font-size: xx-large;"><span data-purecounter-start="0" data-purecounter-end="112" data-purecounter-duration="3" class="purecounter"></span></h6>
+                            </div>
+                          </div>
+        
+                        </div>
+                      </div>
+        
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
+                </div><!-- End .content-->
           </div>
         </div>
 
@@ -581,7 +632,32 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  
+  
+    
+     <!-- Sidebar content -->
+  <div class="sidebar-contact">
+    <div class="toggle"></div>
+    <h2>Contact Us</h2><hr>
+    <div class="scroll">
+    <a class="a_sidebar" href="#">> Overview</a><br>
+    <a class="a_sidebar" href="#">> Superm Dream Offers</a><br>
+    <a class="a_sidebar" href="#">> Dream Offer</a><br>
+    <a class="a_sidebar" href="#">> Internship & Placement</a><br>
+    <a class="a_sidebar" href="#">> Statistics</a><br>
+    <a class="a_sidebar" href="#">> CDC Office</a><br>
+    <a class="a_sidebar" href="#">> Contact us</a><br>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function(){
+    $('.toggle').click(function(){
+    $('.sidebar-contact').toggleClass('active')
+    $('.toggle').toggleClass('active')
+    })
+    })
+</script>
+      <!-- Sidebar content end-->
 </body>
 
 </html>
