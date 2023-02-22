@@ -1671,13 +1671,13 @@ font-size:18px;
   border-radius: 5px;
 }
 .toggle:before{
-content:'\f003';
+content:'';
 font-family:fontAwesome;
 font-size:18px;
 color:#fff;
 }
 .toggle.active:before{
-content:'\f00d';
+content:'';
 }
 /* style to change with resolution */
 @media(max-width:359px)
