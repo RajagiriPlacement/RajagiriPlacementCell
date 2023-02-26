@@ -822,6 +822,7 @@ padding: 0;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #eef0ef;
+  
 }
 
 .trainers .member img {
@@ -829,7 +830,10 @@ padding: 0;
 }
 
 .trainers .member .member-content {
-  padding: 0 20px 30px 20px;
+  padding: 0px 20px 30px 20px;
+}
+.member-content2{
+  padding: 0px 20px 30px 20px;
 }
 
 .trainers .member h4 {
