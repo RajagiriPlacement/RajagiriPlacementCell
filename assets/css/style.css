@@ -572,6 +572,11 @@ section {
   font-size: 26px;
 }
 
+.about p{
+text-align: center;
+padding: 0;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -1411,7 +1416,7 @@ section {
 
 .recruitersImgClass{
   width: 3.5cm;
-  height: 2.5cm;
+  height: 100%;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1706,3 +1711,89 @@ overflow-y:auto;
 }
 /* right side notification end*/
 
+/* statistic */
+.chart{
+  width: 600px;
+  height: 300px;
+  display: block;
+}
+
+.numbers{
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 100%;
+  display: inline-block;
+  float:left;
+}
+
+.numbers li{
+  list-style: none;
+  height: 150px;
+  position: relative;
+  bottom: 145px;
+}
+
+.numbers span{
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.bars{
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  /* box-shadow: 0 0 10px 0 #555; */
+  border-radius: 5px;
+  border: #000000;
+}
+
+.bars li{
+  display: table-cell;
+  width: 100px;
+  height: 300px;
+  position: relative;
+}
+
+.bars span{
+  width: 100%;
+  position: absolute;
+  bottom: -30px;
+  text-align: center;
+}
+
+.bars .bar{
+  display: block;
+  background: #17eb4c;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  margin-left: 25px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(148, 252, 151, 0.5);
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.bars .bar:hover{
+  background: #88ed92;
+  box-shadow: 0 0 10px 0 rgba(125, 255, 143, 0.5);
+  cursor: pointer;
+}
+
+.bars .bar:before{
+  color: #fff;
+  content: attr(data-percentage) '%';
+  position: relative;
+  bottom: 20px;
+}

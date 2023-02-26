@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/logo1.png" rel="icon">
+  <link href="assets/img/1.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -45,7 +45,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
-      <img src="assets/img/RLogo.png" alt="" style="width: 65px;height: 55px;margin-right: 0.7cm;">
+      <img src="assets/img/RLogo.png" alt="" style="width: 95px;height: 100%;margin-right: 0.7cm;">
       <h1 class="logo me-auto"><a href="index.html">Placement Cell</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
@@ -98,28 +98,53 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row">
+    <section id="about" class="about">      
+      <p style="font-size: x-large;">Statistics</p><br><br><br>
+      <div class="container" data-aos="fade-up"> 
+        <div class="row">                                                                <!-- Statistics -->
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <!-- <img src="assets/img/about.jpg" class="img-fluid" alt=""> -->
+            <!--chart start-->
+            <div class="chart">
+              <ul class="numbers">
+                <li><span>100%</span></li>
+                <li><span>50%</span></li>
+                <li><span>0%</span></li>
+              </ul>
+              <ul class="bars">
+                <li><div class="bar" data-percentage="50"></div><span>2019</span></li>
+                <li><div class="bar" data-percentage="30"></div><span>2020</span></li>
+                <li><div class="bar" data-percentage="60"></div><span>2021</span></li>
+                <li><div class="bar" data-percentage="100"></div><span>2022</span></li>
+                <li><div class="bar" data-percentage="80"></div><span>2023</span></li>
+              </ul>
+            </div>
+            <!--chart end-->
+            <script type="text/javascript">
+            $(function(){
+              $('.bars li .bar').each(function(key, bar){
+                var percentage = $(this).data('percentage');
+                $(this).animate({
+                  'height' : percentage + '%'
+                },1000);
+              });
+            });
+            </script>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            </p>
-
+              <p class="fst-italic">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              </ul>
+              <p>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              </p>
           </div>
         </div>
 
@@ -134,22 +159,22 @@
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Students</p>
+            <p>STUDENTS PLACED LAST YEAR</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Courses</p>
+            <p>RECRUITING COMPANIES</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Events</p>
+            <p>PLACEMENT DRIVES (LAST TWO YEARS)</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Trainers</p>
+            <p>HIGHEST SALARY PACKAGE AVAILED(Lakhs)</p>
           </div>
 
         </div>
