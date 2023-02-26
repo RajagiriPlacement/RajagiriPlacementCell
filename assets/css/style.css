@@ -1418,6 +1418,11 @@ padding: 0;
   width: 3.5cm;
   height: 100%;
 }
+.recruitersImgClassFed{
+  display: inline;
+  width: 2.4cm;
+  height: 100%;
+}
 
 @-webkit-keyframes animate-loading {
   0% {
